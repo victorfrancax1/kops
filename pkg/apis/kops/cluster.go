@@ -558,6 +558,8 @@ const (
 	EgressElasticIP = "eipalloc"
 	// EgressElasticIP means that egress configuration is using an existing NAT Instance
 	EgressNatInstance = "i"
+	// EgressTransitGateway means that egress configuration is using an existing Transit Gateway
+	EgressTransitGateway = "tgw"
 	// EgressExternal means that egress configuration is done externally (preconfigured)
 	EgressExternal = "External"
 )
